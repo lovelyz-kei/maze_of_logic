@@ -22,22 +22,28 @@ func doPatternOne() {
 	moveForwardAndAction()
 	turnRight()
 	moveForwardAndAction()
+}
+
+func doPatternTwo() {
 	moveForwardAndAction()
 	turnAround()
 	moveForwardAndAction()
+}
+
+func doPatternThree() {
 	moveForwardAndAction()
-	turnRight()
+	turnLeft()
 	moveForwardAndAction()
 }
 
 doPatternOne()
-moveForwardAndAction()
-turnLeft()
-moveForwardAndAction()
+doPatternTwo()
+doPatternOne()
+doPatternThree()
+doPatternOne()
+doPatternTwo()
 doPatternOne()
 turnLeft()
 moveForwardAndAction()
-moveForwardAndAction()
-turnRight()
-moveForwardAndAction()
+doPatternOne()
 moveForwardAndAction()
